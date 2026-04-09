@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "functional-eq-neural-solver"
+version = "0.1.0"
+description = "PyTorch experiment for learning solutions of f(f(x)) - f(x) = x"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Mohammadjavad Lashkari" , "Mohammad Khorrami"}
+]
+dependencies = [
+  "torch>=2.2",
+  "matplotlib>=3.8",
+]
+
+[tool.setuptools]
+py-modules = ["train_functional_eq"]
