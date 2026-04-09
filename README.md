@@ -62,10 +62,12 @@ python train_functional_eq.py
 Run with custom settings:
 
 ```bash
-python train_functional_eq.py --epochs 5000 --batch-size 1024 --lr 5e-4 --show
+python train_functional_eq.py --epochs 3000 --batch-size 512 --lr 1e-3 --show
 ```
 
 All generated artifacts are written to the `output/` directory by default.
+Example for the given functional equation and default hyperparameters as follows:
+![alt text](output/functional_eq_summary.png)
 
 ## Example output
 
